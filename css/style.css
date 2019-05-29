@@ -60,6 +60,7 @@ header {
     box-sizing: border-box;
     padding: 25px;
     background-color: #171a1c;
+    cursor: pointer; 
 }
 
 .wrapper {
@@ -70,7 +71,7 @@ header {
 .hero-img-par {
     height: 375px;
     background-attachment: fixed;
-    background-position: bottom -100px center;
+    background-position: bottom 200px center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/header-bg.jpeg);

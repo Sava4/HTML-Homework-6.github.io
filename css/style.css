@@ -1,0 +1,143 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #1d2124;
+}
+
+.logo {
+    height: 70px;
+    background-color: #1a1d20;
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 6px;
+    color: #fff;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.24;
+}
+
+.menu-item {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.left-block {
+    margin: 0 auto 0 0;
+}
+
+.two-elem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-block {
+    margin: 0 0 0 auto;
+    box-sizing: border-box;
+    padding: 25px;
+    background-color: #171a1c;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.hero-img-par {
+    height: 375px;
+    background-attachment: fixed;
+    background-position: bottom -100px center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/header-bg.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 27px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+}
+
+.btn1 {
+    font-size: 18px;
+    background-color: #89ca62;
+    color: #fff;
+    padding: 19px 21px 21px 21px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.btn2 {
+    font-size: 18px;
+    background-color: #14b9d5;
+    color: #fff;
+    padding: 20px 32px;
+    border-radius: 5px;
+}
+
+.posts {
+    text-align: center;
+    background-color: #f2f2f2;
+    height: 1030px;
+    box-sizing: border-box;
+}
+
+.pop-text {
+    color: rgba(24, 180, 207, 255);
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 40px 0 52px 0;
+    display: inline-block;
+}
+
+.post-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 896px;
+}
+
+.card {
+    margin-bottom: 32px;
+    background-color: #fff;
+}
+
+.card-text {
+    font-size: 18px;
+    color: rgba(53, 58, 61, 255);
+    font-weight: bold;
+    width: 100%;
+    padding: 20px 0 22px 0;
+}

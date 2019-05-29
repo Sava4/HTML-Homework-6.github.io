@@ -74,6 +74,7 @@ header {
     background-position: bottom 105px center;
     background-repeat: no-repeat;
     background-size: cover;
+/* fix size so image does not jump on different screens */
     background-image: url(../img/header-bg.jpeg);
     display: flex;
     flex-direction: column;

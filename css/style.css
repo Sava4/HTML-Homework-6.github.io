@@ -66,6 +66,7 @@ header {
 .wrapper {
     width: 1170px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .hero-img-par {
@@ -141,4 +142,17 @@ header {
     font-weight: bold;
     width: 100%;
     padding: 20px 0 22px 0;
+}
+
+.image-ribbon {
+    min-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.img-elmnt {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }

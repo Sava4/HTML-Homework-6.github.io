@@ -145,6 +145,7 @@ header {
 
 .image-ribbon {
     min-width: 98vw;
+    height: 190px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
